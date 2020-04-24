@@ -1,0 +1,204 @@
+/* Topheader Start */
+.top-header{
+	background-color: #f0f2f4;
+	padding: 8px 0;
+}
+.top-header ul{   
+    list-style: none;        
+    display: flex;       
+    justify-content: space-between;        
+    margin-bottom: 0;       
+}
+.top-header li{   
+    color: #4b4a4a;     
+}
+.top-header ul li i{
+    margin-right: 5px;
+}
+.top-header .fb{
+	color: #017da7;
+	font-size: 24px;
+	height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+/* Topheader End */
+
+/* header Start */
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link li{
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd2a24;
+    font-weight: 700;
+    font-size: 24px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #dd2a24;
+    font-size: 22px;
+    font-weight: 700;
+}
+.hdr img {
+    height: 70px;
+}
+/* header End */
+
+/* home start */
+.home{
+    background-color: black;
+    color: white;
+    padding: 30px 0px 20px;
+}
+.home_cont{
+    
+margin: 10px 0;
+}
+.home h1{
+    margin: 10px 30px 25px;
+}
+.home p {
+    padding: 10px 20px;
+    margin: 5px 30px;
+    border-radius: 10px;
+    background-color: #301010;
+}
+/* home End */
+
+/* service start */
+.service{
+    background-color: #810000;
+    color: white;
+    padding: 50px 0px;
+}
+.service span {
+    height: 5px;
+    width: 50px;
+    background: white;
+    display: inline-block;
+}
+.service .quality{
+    margin: 20px 0 5px;
+}
+.quality .qlty{
+    margin: 3px;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #5c030b;
+}
+.qlty p{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #810000;
+}
+.qlty h3{
+    margin: 5px;
+}
+/* service End */
+
+/* Get In Touch Start */
+.bottom{
+	background-color: #333333;
+	padding: 50px 0;
+}
+.bottom-content{
+	color: #fff;
+	text-align: center;
+}
+.bottom-content h1{
+	text-transform: capitalize;
+	padding-bottom: 30px;
+	font-size: 28px;
+}
+.bottom-content ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	width: 25%;
+	justify-content: space-between;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.bottom-content ul li a{
+	border: 1px solid #fff;
+	padding: 6px 8px;
+	color: #fff;
+	border-radius: 4px;
+}
+.bottom-content ul li a:hover{
+	border: 1px solid #cc3333;
+}
+.bottom-content ul li a i{
+	font-size: 16px;
+}
+
+footer{
+	background-color: #666666;
+	color: #fff;
+}
+footer p{
+	padding: 10px 0;
+    margin: 0;
+    font-size: 15px;
+}
+/* Footer End */
+
+/* practice start */
+.practice{
+    background-color: #810000;
+    color: white;
+    padding: 50px 0px;
+}
+.practice span {
+    height: 5px;
+    width: 50px;
+    background: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.practice_item{
+    padding: 20px;
+    background-color: #5c030b;
+}
+/* practice End */
+/* contact start */
+.contact{
+    background-color: #2d2d69;
+    color: white;
+    padding: 50px 0px;
+}
+.contact span {
+    height: 5px;
+    width: 50px;
+    background: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.contact p {
+    background-color: #d4d8fcc2;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cntct{
+margin: 30px;
+}
+.cntct i{
+    font-size: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* contact End */
